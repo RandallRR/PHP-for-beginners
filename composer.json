@@ -6,5 +6,10 @@
             "email": "127121977+RandallRR@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/"
+        }
+    }
 }
