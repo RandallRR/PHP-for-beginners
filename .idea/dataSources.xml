@@ -8,12 +8,5 @@
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="RedRabbit Staging" uuid="40ea5617-bac6-4863-9b81-5366dec096ee">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://redrabbit-non-prod-cluster-restore-cluster.cluster-ro-ckbxe3yjrjgi.eu-west-1.rds.amazonaws.com:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
   </component>
 </project>
